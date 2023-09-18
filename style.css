@@ -11,6 +11,9 @@
     padding-right: 9px;
     text-decoration: none;
 }
+.top-nav img:hover{
+    opacity: 50%;
+}
 .top-nav button:hover{
     background-color: #1e2b7b;
     color: #f8bd0e;
