@@ -6,19 +6,20 @@
     text-align: right;
     float: right;
 }
-.top-nav button{
+.top-nav a{
     background-color: white;
     color: black;
-    height: 60px;
+    height: 100px;
     width: 150px;
     border: none;
     cursor:pointer;
-    font-size: 12px;
+    font-size: 15px;
     font-family: monospace;
-    padding-left: 5px;
-    padding-right: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
-    margin-top: 3px ;
+    margin-top: 0px ;
+    transition: background-color .5s, color .5s;
 }
 .top-nav-logo img{
     text-align: left;
@@ -26,11 +27,12 @@
     width: 200px;
     padding-left: 5px;
     padding-top: 5px;
+    transition: opacity .3s;
 }
 .top-nav-logo img:hover{
     opacity: 0.8;
 }
-.top-nav button:hover{
+.top-nav a:hover{
     background-color: #1e2b7b;
     color: #f8bd0e;
 }
