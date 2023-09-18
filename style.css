@@ -1,0 +1,21 @@
+.top-nav button{
+    background-color: white;
+    color: black;
+    height: 50px;
+    margin: -5px;
+    border: none;
+    cursor:pointer;
+    font-size: 15px;
+    font-family: monospace;
+    padding-left: 5px;
+    padding-right: 9px;
+    text-decoration: none;
+}
+.top-nav button:hover{
+    background-color: #1e2b7b;
+    color: #f8bd0e;
+}
+.top-nav button:active{
+    background-color: #f8bd0e;
+    color: #1e2b7b;
+}
