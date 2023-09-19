@@ -1,23 +1,22 @@
 ul{
     list-style-type: none;
-    margin: -7px;
+    margin: 10px -7px -2px -7px;
     padding: 0;
 }
 li{
     float: right;
+
 }
 li a{
     display: block;
-    padding: 16px 18px;
+    padding: 16px 18px 12px 18px;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
     color: #1e2b7b;
     transition: background-color .2s, color .2s;
     height: 20px;
-}
-ul .home-bttn{
-    background-color: #f8bd0e;
+    border-radius: 50px;
 }
 li a:hover{
     background-color: #1e2b7b;
@@ -30,9 +29,26 @@ li a:active{
 ul img{
     height: 60px;
     width: 180px;
-    padding: 4px 3px;
+    padding: 2px 3px;
     transition: opacity 0.7s;
+    margin-top: -1px;
 }
 ul img:hover{
     opacity: 0.8;
+}
+.main-first-page{
+    background-color: #1e2b7b;
+    color: white;
+    text-align: center;
+    margin: -25px -10px 0 -10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-first-page h1{
+    font-weight: bold;
+    padding: 5px 0 3px 0;
+}
+.main-first-page h2{
+    font-weight: 100;
+    padding: 0 0 5px 0;
+    margin: -10px 0 5px 0;
 }
